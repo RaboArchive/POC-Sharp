@@ -1,0 +1,17 @@
+{
+  "name": "poc-sharp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "s": "tsc && node dist/sharpWithoutCustomLib.js",
+    "c": "tsc && node dist/sharpWithCustomLib.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sharp": "^0.22.0",
+    "f-promise": "^1.4.0",
+    "sharp": "^0.22.0"
+  }
+}
