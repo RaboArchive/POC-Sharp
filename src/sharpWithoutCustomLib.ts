@@ -1,4 +1,3 @@
-import { run, wait } from 'f-promise';
 import * as fs from 'fs';
 import sharp = require('sharp');
 
