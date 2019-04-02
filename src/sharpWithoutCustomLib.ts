@@ -23,7 +23,7 @@ try {
   console.log('Err : Catched while doing things with PNG', e, e.stack);
 }
 
-try {
+/*try {
   console.log(`Trying to convert : ${fileBMPPath}`)
   const outputStream = fs.createWriteStream('output/lena-output-WITHOUT.jpeg');
   const inputStream = fs.createReadStream(fileBMPPath)
@@ -33,4 +33,4 @@ try {
   .on('close', () => { console.log(`${fileBMPPath} - Done`); });
 } catch (e) {
   console.log('Err : Catched while doing things with  BMP', e, e.stack);
-}
+}*/
