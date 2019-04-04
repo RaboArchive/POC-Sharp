@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "s": "tsc && node dist/sharpWithoutCustomLib.js",
-    "c": "tsc && node dist/sharpWithCustomLib.js"
+    "start": "tsc && node dist/sharpTesting.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/fs-extra": "^5.0.5",
     "@types/node": "^11.13.0",
     "@types/sharp": "^0.22.0",
+    "f-promise": "^1.4.0",
+    "f-streams": "^2.3.0",
+    "fs-extra": "^7.0.1",
     "sharp": "^0.22.0"
   }
 }
