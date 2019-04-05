@@ -12,6 +12,7 @@ RUN adduser --disabled-password --gecos '' bee && \
 
 USER bee
 WORKDIR	/home/bee/
+
 RUN git clone https://github.com/RaboliotTheGrey/POC-Sharp.git && \
     cd POC-Sharp && \
     npm i && \
