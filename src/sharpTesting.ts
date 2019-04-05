@@ -82,7 +82,7 @@ if (process.argv[2] === 'node') {
 
                 console.log(`[${libUsed}] ${file} - Done - in ${(Date.now() - startTime) / 1000}s`);
             } catch (e) {
-                console.log(`[${libUsed}] Err : Catched while doing things to ${files[i]}`);
+                console.log(`[${libUsed}] Err : Catched while doing things to ${files[i]}`, e);
                 wait(fs.remove(outputPath));
             }
         }
