@@ -26,3 +26,11 @@ RUN 	pwd && ls && \
         make
 USER	root
 RUN     make install
+
+USER bee
+WORKDIR	/home/bee/
+RUN git clone https://github.com/RaboliotTheGrey/POC-Sharp.git && \
+    cd POC-Sharp && \
+    npm i && \
+    npm start node && \
+    npm start f-streams
